@@ -19,7 +19,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/boende' element={<Boende />} />
-          <h1>Extra Test</h1>
           <Route path='/aktiviteter' element={<Aktiviteter />} />
           <Route path='/oppettider' element={<Oppettider />} />
           <Route path='/kontakt' element={<Kontakt />} />

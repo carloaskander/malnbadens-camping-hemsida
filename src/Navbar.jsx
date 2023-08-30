@@ -5,6 +5,7 @@ import './Navbar.css'
 function Navbar() {
     return (
         <nav className="navbar">
+            <img src="/path/to/logo.png" alt="MALNBADENS CAMPING" className="navbar-logo" />
             <ul className="navbar-list">
                 <li className="navbar-item"><Link to="/">HEM</Link></li>
                 <li className="navbar-item"><Link to="/boende">BOENDE</Link></li>
@@ -16,5 +17,6 @@ function Navbar() {
         </nav>
     );
 }
+
 
 export default Navbar;
