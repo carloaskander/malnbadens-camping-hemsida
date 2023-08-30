@@ -10,6 +10,12 @@
     border-bottom: 2px solid seagreen;
 }
 
+/* Logo styling */
+.navbar-logo {
+    height: 40px;
+    margin-right: 5rem; /* 5rem space to the right */
+} 
+
 .navbar-list {
     /* Sizing */
     width: 80%;
@@ -30,6 +36,10 @@
 .navbar-item a {
     text-decoration: none;
     color: #f9f7f5;
+}
+
+.navbar-item:last-child {
+    margin-right: 5rem; /* adjust as needed */
 }
 
 /* Reset button styling */
