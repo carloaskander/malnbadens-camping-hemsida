@@ -1,8 +1,12 @@
 * {
+  /* Sizing */
   margin: 0;
   padding: 0;
 }
 
 body {
+  /* Styling */
   background-color: #262626;
+  color: white;
+  font-family: ;
 }
